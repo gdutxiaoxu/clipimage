@@ -1,0 +1,3 @@
+[submodule "submodules/BaseLibrary"]
+	path = submodules/BaseLibrary
+	url = https://github.com/gdutxiaoxu/BaseLibrary.git
