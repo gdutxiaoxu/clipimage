@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/qqLayout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#e5e5e5">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="1、仿QQ头像上传"
+                android:textColor="#173070"
+                android:textSize="16sp" />
+
+            <com.xj.clipimage.CircleImageView
+                android:id="@+id/head_image1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:src="@mipmap/qq" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#173070" />
+
+
+        <RelativeLayout
+            android:id="@+id/weixinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#e5e5e5">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="2、仿微信头像上传"
+                android:textColor="#173070"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/head_image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:src="@mipmap/wechat" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#173070" />
+
+
+        <RelativeLayout
+            android:id="@+id/weixinLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#e5e5e5">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="3、仿微信头像上传（九宫格）"
+                android:textColor="#173070"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/head_image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="50dp"
+                android:src="@mipmap/wechat" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
