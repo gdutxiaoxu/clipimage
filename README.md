@@ -3,6 +3,9 @@
 
 **扫一扫，欢迎关注我的公众号。如果你有好的文章，也欢迎你的投稿。**
 
+
+不少人反馈 BaseLibrary  这个库无法获取，解决方法见 [issue](https://github.com/gdutxiaoxu/clipimage/issues/2)
+
 ---
 
 
